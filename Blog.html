@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Add a gray background color with some padding */
+    body {
+      font-family: Arial;
+      padding: 20px;
+      background: #f1f1f1;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      font-size: 40px;
+      text-align: center;
+      background: white;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {
+      float: left;
+      width: 75%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      padding-left: 20px;
+    }
+    
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn,
+      .rightcolumn {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center>
+  <div class="header">
+    <p style="font-family:'Tahoma'"">Video Games Blog</p>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>Roblox</h2>
+        <h4>
+          Roblox advertises itself as an 'Imagination Platform' that allows
+          its users to design or play other millions of 3D desings made by
+          others. The game itself was launched in 2007, and has achived 64
+          million players every month, with an estimated total of 178 million
+          accounts on the current game platform.
+        </h4>
+        <p style="font-size: 30px">Creators:David Baszucki/Erik Cassel</p>
+        <div class="fakeimg" style="height: 400px">
+          <center>
+            <img src="image(roblox).jpg" alt="Trulli" style="height: 350px" />
+          </center>
+        </div>
+        <p>This is the roblox sign currently, 2022.</p>
+      </div>
+      <div class="card">
+        <h4>
+          The game’s two main modes are Survival and Creative. In Survival,
+          players must find their own building supplies and food. They also
+          interact with blocklike mobs, or moving creatures. (Creepers and
+          zombies are some of the dangerous ones.) In Creative mode, players
+          are given unlimited amount of supplies to build and do whatever they
+          desire to. They also do not have to eat to survive. They also can
+          break all kinds of blocks immediately. The purpose of the game is
+          simply to build and explore (and survive). You can play by yourself
+          or you can play online with others. The smartphone and tablet
+          versions offer multi-player options through WiFi networks. Players
+          can connect to thousands of Minecraft online games (servers), some
+          of which involve battling other players.
+        </h4>
+        <p style="font-size: 30px">Creators:Jens Bergensten/Markus Persson</p>
+        <div class="fakeimg" style="height: 400px">
+          <center>
+            <img
+            src="image(minecraft).jpg"
+            alt="Trulli"
+            style="height: 370px; width: 300px"
+            />
+          </center>
+        </div>
+        <p>This is the minecraft sign currently, 2022.</p>
+        </div>
+        <div class="card">
+          <h4>
+          Fortnite is an online video game developed and made by the company of Epic Games and was released in 2017. It is available in three entirely different game mode
+          versions that otherwise share the same general gameplay and game engine: Fortnite Battle Royale, a free-to-play battle royale 
+          game in which can take up to 100 players (not bots) to fight to be the last person standing; Fortnite: Save the World, a cooperative hybrid tower 
+          defense-shooter and survival game in which up to four players, that could be your friends, your clan, or just other random people around the world to fight off zombie-like creatures and defend objects with traps 
+          and fortifications they can build; and Fortnite: Creative, in which players are given infinite amount of resources to build and has complete freedom to create worlds 
+          and battle arenas.
+          </h4>
+          <p style="font-size: 30px">Creators:Tim Sweeney/Tencent/Sony/Kirkby</p>
+          <div class="fakeimg" style="height: 400px">
+            <center>
+              <img
+              src="image(fornite).jpg"
+              alt="Trulli"
+              style="height: 360px; width: 370px"
+              />
+            </center>
+          </div>
+          <p>This is the Fortnite sign currently, 2022.</p>
+          </div>
+    <div class="fakeimg">
+      <div class="card">
+        <center><h2>CONTACT</h2>
+        <p>
+          <a href="https://mail.google.com/mail/u/0/#inbox">Feel free to contact me through bryan312476@gmail.com</a></center>
+        </p>
+      </div>
+    </center>
+</body>
+</html>
